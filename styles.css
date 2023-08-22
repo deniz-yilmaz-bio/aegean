@@ -47,4 +47,34 @@ a {
   display: flex;
   height: 900px;
   flex-shrink: 0;
+  justify-content: center;
+}
+
+.info-card {
+  background-color: rgba(0, 0, 0, 0.527);
+  display: flex;
+  height: fit-content;
+  color: white;
+  margin-top: 150px;
+  padding: 10px;
+  justify-content: center;
+  max-width: 900px;
+  gap: 40px;
+}
+
+.info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-basis: 400px;
+}
+
+.hero {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 20px;
 }
