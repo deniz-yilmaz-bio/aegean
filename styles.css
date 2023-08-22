@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 .logo {
@@ -57,11 +58,12 @@ a {
   color: white;
   margin-top: 150px;
   padding: 20px;
-  justify-content: space-between;
+  justify-content: center;
   flex-basis: 980px;
   gap: 20px;
   flex-wrap: wrap;
   border-radius: 1cm;
+  align-items: center;
 }
 
 .info-text {
@@ -96,4 +98,39 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 5px;
+}
+
+.taxa-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(1, 85, 180);
+  gap: 30px;
+  padding: 30px;
+}
+
+.family-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.taxa-img {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+  font-size: 25px;
+  flex-wrap: wrap;
+}
+
+.family-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.intro {
+  font-size: 30px;
+  font-weight: bold;
 }
