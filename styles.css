@@ -56,10 +56,12 @@ a {
   height: fit-content;
   color: white;
   margin-top: 150px;
-  padding: 10px;
-  justify-content: center;
-  flex-basis: 900px;
-  gap: 40px;
+  padding: 20px;
+  justify-content: space-between;
+  flex-basis: 980px;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-radius: 1cm;
 }
 
 .info-text {
@@ -77,4 +79,21 @@ a {
 
 .info {
   font-size: 20px;
+}
+
+.flavor {
+  font-size: 40px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.seal {
+  border-radius: 1cm;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
