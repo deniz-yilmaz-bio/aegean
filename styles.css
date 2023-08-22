@@ -58,7 +58,7 @@ a {
   margin-top: 150px;
   padding: 10px;
   justify-content: center;
-  max-width: 900px;
+  flex-basis: 900px;
   gap: 40px;
 }
 
