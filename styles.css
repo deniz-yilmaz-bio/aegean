@@ -93,6 +93,13 @@ a {
   border-radius: 1cm;
 }
 
+@media only screen and (max-width: 535px) {
+  .seal {
+    width: 320px;
+    object-fit: cover;
+  }
+}
+
 .image {
   display: flex;
   flex-direction: column;
